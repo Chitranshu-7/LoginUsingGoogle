@@ -4,11 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Home from './Home';
+import Chitranshu from './Chitranshu';
+import Vaishali from './Vaishali';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
- <Home/>
+ {/* <Home/> */}
+ {/* <Chitranshu/> */}
+ <Vaishali/>
   </React.StrictMode>
 );
 
